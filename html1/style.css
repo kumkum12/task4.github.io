@@ -1,0 +1,40 @@
+
+ 
+
+body {
+  text-align: center;
+  background-color:blue;
+}
+h1 {
+  font-size: 8rem;
+  color: white
+  
+  
+
+}
+ .list {
+  margin: 10% auto;
+  display: flex;
+  justify-content: space-between;
+}
+.pressed {
+  box-shadow: 0 3px 4px 0 white;
+  opacity: 0.5;
+}
+.drum {
+  outline: none;
+  
+  font-size: 5rem;
+  
+  line-height: 4;
+  font-weight: 700;
+  color: blue;
+  text-shadow: 3px 0 white;
+  border-radius: 15px;
+  display: inline-block;
+  width: 130px;
+  height: 130px;
+  text-align: center;
+  
+  background-color: white;
+}
